@@ -7,7 +7,7 @@
 	let height = $state();
 </script>
 
-<main
+<div
 	bind:clientWidth={width}
 	bind:clientHeight={height}
 >
@@ -21,10 +21,10 @@
 			color="#000000"
 		/>
 	</Canvas>
-</main>
+</div>
 
 <style>
-	main {
+	div {
 		position: relative;
 		width: 100%;
 		height: 100px;
