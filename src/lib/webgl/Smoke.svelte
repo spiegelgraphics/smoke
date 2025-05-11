@@ -11,7 +11,7 @@
 	const particles = $derived(
 		createParticles(regl, { n, width, height, origin, color })
 	);
-  
+
 	const drawParticles = $derived(createDrawFunction(regl));
 
 	$effect(() => {

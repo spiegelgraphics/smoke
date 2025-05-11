@@ -58,6 +58,7 @@
 		height: 80%;
 		left: 8px;
 	}
+  
 	.chimney-bottom {
 		fill: #664d4f;
 	}
